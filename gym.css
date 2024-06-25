@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url("https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=400");
+   background-size: 100%;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display:  flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+nav ul button:hover{
+    color: black;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin-inline: 30px;
+    font-size: 25px;
+}
+nav h1{
+    font-size: 40px;
+}
+ul button{
+    width: 100px;
+    height: 30px;
+    
+    border: 1px solid red;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+
+
+}
+text button:hover{
+    background-color: aqua;
+    color: blue;
+    cursor: pointer;
+}
+
+.text{
+    margin-left: 7%;
+    margin-top: 120px;
+}
+.text h1{
+    font-size: 100px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.text p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.text button{
+    width: 170px;
+    height: 44px;
+    background-color: blueviolet;
+    font-size: 30px;
+     color: white;
+     border: none;
+     border-radius: 40px;
+     margin-top: 50px;
+     margin-left: 30px;
+     justify-content: center;
+}
+.text button:hover{
+    color: blue;
+}
+ul li a:hover{
+    border: ipx solid blue;
+    margin-top: 20px;
+    cursor: pointer;
+}
+nav span{
+    color: brown;
+}
+.input{
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
